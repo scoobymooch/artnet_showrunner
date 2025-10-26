@@ -1,0 +1,42 @@
+audio: Bobby ＂Boris＂ Pickett - Monster Mash (Official Lyric Video) [tsPdVsIXqzU].mp3
+offset_ms: 310
+artnet:
+  target: 192.168.1.129
+  universe: 0
+
+profiles:
+  par_rgb:
+    channels:
+      dim: 1
+      r: 2
+      g: 3
+      b: 4
+
+patch:
+  - id: par1
+    profile: par_rgb
+    base: 1
+  - id: par2
+    profile: par_rgb
+    base: 5
+
+events:
+  - at: "00:00.000"
+    set:
+      fixture: "par1"
+      values: { dim: 255, r: 0, g: 0, b: 0 }
+  - at: "00:3.279"
+    temp_set:
+      fixture: "par1"
+      to_map: { dim: 255, r: 255, g: 255, b: 255 }
+      dur: 500ms
+  - at: "00:5.188"
+    temp_set:
+      fixture: "par1"
+      to_map: { dim: 255, r: 255, g: 255, b: 255 }
+      dur: 500ms
+  - at: "00:7.221"
+    temp_set:
+      fixture: "par1"
+      to_map: { dim: 255, r: 255, g: 255, b: 255 }
+      dur: 500ms

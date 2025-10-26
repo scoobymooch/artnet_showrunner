@@ -1,0 +1,20 @@
+audio: MonsterMash.mp3
+offset_ms: 150
+broadcast_subnet: 192.168.1.255
+profiles:
+  par_rgb:
+    channels:
+      dim: 1
+      r: 2
+      g: 3
+      b: 4
+
+patch:
+  - id: par1
+    profile: par_rgb
+    base: 1
+    timeline: timelines/par1.txt
+  - id: par2
+    profile: par_rgb
+    base: 8
+    timeline: timelines/par2.txt

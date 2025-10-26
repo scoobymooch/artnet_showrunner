@@ -1,0 +1,16 @@
+# Go build
+bin/
+*.exe
+*.out
+*.test
+
+# OS/editor files
+.DS_Store
+*.swp
+.vscode/
+
+# Backups
+*.bak
+*.copy*
+
+*.mp3
