@@ -14,3 +14,4 @@ bin/
 *.copy*
 
 *.mp3
+backups/*
