@@ -25,7 +25,6 @@ artnet_showrunner/
 ├── timelines/
 │   ├── par1.txt
 │   └── par2.txt
-├── MonsterMash.mp3
 └── README.md
 ```
 
